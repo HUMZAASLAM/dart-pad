@@ -1,0 +1,26 @@
+void main() {
+  
+  print("MARKSHEET");
+  num eng = 10;
+  num urd = 30;
+  num com = 44;
+  num mat = 30;
+  num sci = 25;
+  num totalmarks = 250;
+  num obtainedmarks = eng+urd+sci+com+mat;
+  num per = (obtainedmarks*100/totalmarks);
+  
+  print("TOTAL MARKS : ${totalmarks}");
+  
+  print("OBTAINED MARKS : ${obtainedmarks}");
+  
+  print("Percentage : ${per}%");
+  
+  {if(per>=90){print("GRADE : A+ ");}
+  else if(per>=70){print("GRADE : A");}
+  else if(per>=60){print("GRADE : B");}
+  else if(per>=40){print("GRADE : C");}
+  else print("GRADE : fail");
+   }
+}
+
